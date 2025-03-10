@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 function toggleTheme() {
     // const body = document.body;
 
@@ -89,7 +88,6 @@ document.addEventListener("DOMContentLoaded", function () {
     typeTitleBefore(); // Start typing effect
 });
 
-=======
 function toggleTheme() {
     // const body = document.body;
 
@@ -180,4 +178,13 @@ document.addEventListener("DOMContentLoaded", function () {
     typeTitleBefore(); // Start typing effect
 });
 
->>>>>>> b4c7ac5 (Initial commit)
+
+document.addEventListener("DOMContentLoaded", function () {
+    const menuToggle = document.querySelector(".menu-toggle");
+    const navLinks = document.querySelector(".nav-links");
+
+    menuToggle.addEventListener("click", function () {
+        navLinks.classList.toggle("active");
+    });
+});
+
